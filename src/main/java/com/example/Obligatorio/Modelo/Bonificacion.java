@@ -12,7 +12,7 @@ public abstract class Bonificacion {
         this.transitos = new ArrayList<>();
     }
 
-    public void validar ();
+    public abstract calcularDescuento(double monto);
 
     public String getNombre() {
         return nombre;

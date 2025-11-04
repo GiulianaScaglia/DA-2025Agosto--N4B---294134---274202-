@@ -3,8 +3,7 @@ public class Exonerada extends Bonificacion {
         super("Exonerada");
     }       
 
-    public void validar() {
-        // Implementación específica para Exonerada
+    public double calcularDescuento(double monto) {
+        return monto; // No aplica descuento, se exonera el monto total
     }
-
 }
